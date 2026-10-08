@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: medicare
+  labels:
+    app.kubernetes.io/name: medicare
+    app.kubernetes.io/part-of: medicare-platform
+    environment: development
