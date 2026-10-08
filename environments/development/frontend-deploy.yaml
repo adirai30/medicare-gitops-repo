@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: medicare-frontend
-          image: 788365607408.dkr.ecr.us-east-1.amazonaws.com/medicare-frontend:2.0
+          image: 788365607408.dkr.ecr.us-east-1.amazonaws.com/medicare-frontend:e417cc694476c7c06627cff24da750235f5999aa
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
